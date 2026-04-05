@@ -102,6 +102,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh""
-alias podman-restart="podman-compose down && podman-compose up -d"
-alias podman-rebuild="podman-compose down && podman-compose up -d --build"
+alias szsh="source ~/.zshrc && echo 'Zsh config reloaded!'"
 
