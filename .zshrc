@@ -111,5 +111,5 @@ alias docker-build-no-cache="docker compose up -d --build --no-cache"
 alias docker-up="docker compose up -d"
 alias docker-down="docker compose down"
 alias docker-rebuild="docker compose down && docker compose up -d --build"
-alias docker-restart="docker compose down && docker compose up"
+alias docker-restart="docker compose down && docker compose up -d"
 
