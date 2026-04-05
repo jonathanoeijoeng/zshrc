@@ -106,4 +106,8 @@ alias szsh="source ~/.zshrc && echo 'Zsh config reloaded!'"
 alias go-zshrc="cd ~/projects/zshrc"
 alias go-hello-jonathan="cd ~/projects/hello-jonathan"
 alias go-expenses="cd ~/projects/expenses"
+alias docker-build="docker compose up -d --build"
+alias docker-build-no-cache="docker compose up -d --build --no-cache"
+alias docker-up="docker compose up -d"
+alias docker-down="docker compose down"
 
