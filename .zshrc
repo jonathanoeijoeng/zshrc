@@ -103,4 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh""
 alias szsh="source ~/.zshrc && echo 'Zsh config reloaded!'"
+alias go-zshrc="cd ~/projects/zshrc"
+alias go-hello-jonathan="cd ~/projects/hello-jonathan"
+alias go-expenses="cd ~/projects/expenses"
 
