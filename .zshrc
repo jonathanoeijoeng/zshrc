@@ -103,7 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh""
-alias szsh="alias reload="pushd . && cd ~/projects/zshrc/ && git pull && source ~/.zshrc && echo 'Zsh config reloaded!' && popd"
+alias szsh="pushd . && cd ~/projects/zshrc/ && git pull && source ~/.zshrc && echo 'Zsh config reloaded!' && popd"
 alias go-zshrc="cd ~/projects/zshrc"
 alias go-hello-jonathan="cd ~/projects/hello-jonathan"
 alias go-expenses="cd ~/projects/expenses"
