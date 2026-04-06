@@ -116,5 +116,6 @@ alias docker-up="docker compose up -d"
 alias docker-down="docker compose down"
 alias docker-rebuild="docker compose down && docker compose up -d --build"
 alias docker-restart="docker compose down && docker compose up -d"
+alias dce="docker compose exec"
 alias restore-chrome="rm -f ~/.config/google-chrome/SingletonLock && rm -f ~/.config/google-chrome/SingletonCookie"
 
