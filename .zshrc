@@ -107,6 +107,7 @@ alias szsh="pushd -q . && cd ~/projects/zshrc/ && git pull && source ~/.zshrc &&
 alias go-zshrc="cd ~/projects/zshrc"
 alias go-hello-jonathan="cd ~/projects/hello-jonathan"
 alias go-expenses="cd ~/projects/expenses"
+alias go-server="cd ~/projects/server-monitor"
 alias go-qresta="cd ~/projects/qresta"
 alias go-parking="cd ~/projects/parking-management"
 alias docker-build="docker compose up -d --build"
